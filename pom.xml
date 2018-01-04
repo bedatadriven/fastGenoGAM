@@ -36,37 +36,37 @@
     <dependency>
       <groupId>org.renjin.bioconductor</groupId>
       <artifactId>SummarizedExperiment</artifactId>
-      <version>1.6.5-b13</version>
+      <version>1.9.5-b1</version>
     </dependency>
     <dependency>
       <groupId>org.renjin.bioconductor</groupId>
       <artifactId>S4Vectors</artifactId>
-      <version>0.14.7-b11</version>
+      <version>0.17.15-b1</version>
     </dependency>
     <dependency>
       <groupId>org.renjin.cran</groupId>
       <artifactId>Matrix</artifactId>
-      <version>1.2-11-b37</version>
+      <version>1.2-12-b9</version>
     </dependency>
     <dependency>
       <groupId>org.renjin.bioconductor</groupId>
       <artifactId>Rsamtools</artifactId>
-      <version>1.28.0-b3</version>
+      <version>1.31.1-b1</version>
     </dependency>
     <dependency>
       <groupId>org.renjin.bioconductor</groupId>
       <artifactId>GenomicRanges</artifactId>
-      <version>1.28.6-b9</version>
+      <version>1.31.3-b1</version>
     </dependency>
     <dependency>
       <groupId>org.renjin.bioconductor</groupId>
       <artifactId>BiocParallel</artifactId>
-      <version>1.10.1-b9</version>
+      <version>1.13.1-b1</version>
     </dependency>
     <dependency>
       <groupId>org.renjin.cran</groupId>
       <artifactId>data.table</artifactId>
-      <version>1.10.4-3-b2</version>
+      <version>1.10.4-3-b10</version>
     </dependency>
     <dependency>
       <groupId>org.renjin.bioconductor</groupId>
@@ -81,22 +81,22 @@
     <dependency>
       <groupId>org.renjin.bioconductor</groupId>
       <artifactId>GenomeInfoDb</artifactId>
-      <version>1.12.3-b9</version>
+      <version>1.15.1-b1</version>
     </dependency>
     <dependency>
       <groupId>org.renjin.bioconductor</groupId>
       <artifactId>IRanges</artifactId>
-      <version>2.10.5-b10</version>
+      <version>2.13.4-b1</version>
     </dependency>
     <dependency>
       <groupId>org.renjin.bioconductor</groupId>
       <artifactId>Biostrings</artifactId>
-      <version>2.44.2-b2</version>
+      <version>2.47.1-b1</version>
     </dependency>
     <dependency>
       <groupId>org.renjin.bioconductor</groupId>
       <artifactId>DelayedArray</artifactId>
-      <version>0.2.7-b8</version>
+      <version>0.5.13-b1</version>
     </dependency>
     <dependency>
       <groupId>org.renjin.bioconductor</groupId>
@@ -105,9 +105,31 @@
     </dependency>
     <dependency>
       <groupId>org.renjin.cran</groupId>
+      <artifactId>RcppArmadillo</artifactId>
+      <version>0.8.300.1.0-b5</version>
+    </dependency>
+    <dependency>
+      <groupId>org.renjin.cran</groupId>
+      <artifactId>RcppArmadillo</artifactId>
+      <version>0.8.300.1.0-b5</version>
+      <classifier>headers</classifier>
+    </dependency>
+    <dependency>
+      <groupId>org.renjin.cran</groupId>
+      <artifactId>Rcpp</artifactId>
+      <version>0.12.13-renjin-15</version>
+      <classifier>headers</classifier>
+    </dependency>
+    <dependency>
+      <groupId>org.renjin.cran</groupId>
       <artifactId>testthat</artifactId>
-      <version>RELEASE</version>
+      <version>1.0.2.9000</version>
       <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.renjin</groupId>
+      <artifactId>renjin-core</artifactId>
+      <version>${renjin.version}</version>
     </dependency>
   </dependencies>
 
