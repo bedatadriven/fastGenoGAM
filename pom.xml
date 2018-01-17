@@ -101,7 +101,7 @@
     <dependency>
       <groupId>org.renjin.bioconductor</groupId>
       <artifactId>HDF5Array</artifactId>
-      <version>1.4.8-SNAPSHOT</version>
+      <version>10.0.1</version>
     </dependency>
     <dependency>
       <groupId>org.renjin.cran</groupId>
