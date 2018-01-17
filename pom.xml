@@ -2,10 +2,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.renjin.bioconductor</groupId>
-  <artifactId>fastGenoGam</artifactId>
+  <artifactId>fastGenoGAM</artifactId>
   <version>1.99</version>
   <properties>
-    <renjin.version>0.9.0-SNAPSHOT</renjin.version>
+    <renjin.version>0.9.2582</renjin.version>
   </properties>
   <repositories>
     <repository>
@@ -129,6 +129,11 @@
     <dependency>
       <groupId>org.renjin</groupId>
       <artifactId>renjin-core</artifactId>
+      <version>${renjin.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.renjin</groupId>
+      <artifactId>renjin-gnur-runtime</artifactId>
       <version>${renjin.version}</version>
     </dependency>
   </dependencies>
