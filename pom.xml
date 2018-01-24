@@ -123,7 +123,7 @@
     <dependency>
       <groupId>org.renjin.cran</groupId>
       <artifactId>testthat</artifactId>
-      <version>1.0.2.9000</version>
+      <version>1.0.2-renjin-17</version>
       <scope>test</scope>
     </dependency>
     <dependency>
