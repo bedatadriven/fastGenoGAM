@@ -5,7 +5,7 @@
   <artifactId>fastGenoGAM</artifactId>
   <version>1.99</version>
   <properties>
-    <renjin.version>0.9.2592</renjin.version>
+    <renjin.version>1.0.0-SNAPSHOT</renjin.version>
   </properties>
   <repositories>
     <repository>
@@ -129,6 +129,11 @@
     <dependency>
       <groupId>org.renjin</groupId>
       <artifactId>renjin-core</artifactId>
+      <version>${renjin.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.renjin</groupId>
+      <artifactId>methods</artifactId>
       <version>${renjin.version}</version>
     </dependency>
     <dependency>
