@@ -9,12 +9,12 @@ library(stats)
 
 print(search())
 
-setwd("/home/alex/dev/genogam/fastGenoGAM/benchmarks/lbgfs")
+setwd("/home/alex/dev/genogam/fastGenoGAM/benchmarks/lbfgs")
 
 #expected <- readRDS("expected.rds")
 #
 #str(expected)
-
+print(R.version.string)
 print(system.time(library(fastGenoGAM)))
 
 
